@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown APP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="form-container">
+      <h1>Insira uma data :</h1>
+      <form>
+        <input type="text" placeholder=" dd / mm / yyyy" maxlength="10" />
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+      </form>
+    </div>
+
+    <div id="show-container">
+      <h1>Quanto tempo falta até a data selecionada : </h1>
+      <div id="result" class="details">
+        <span data-time="days">00</span>
+        <span data-time="hours">00</span>
+        <span data-time="minutes">00</span>
+        <span data-time="seconds">00</span>
+      </div>
+      <div class="details desc">
+        <span>Dias</span>
+        <span>Horas</span>
+        <span>Minutos</span>
+        <span>Segundos</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
